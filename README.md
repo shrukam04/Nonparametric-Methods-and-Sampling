@@ -1,0 +1,2 @@
+# Nonparametric-Methods-and-Sampling
+ This file is directly linked to the different key learning outcomes from the course using R. Here we will test hypotheses using methods, sign test, Wilcoxon rank-sum test, signed-rank test, Kruskal-Wallis test, and the runs test. By using spearman rank correlation coefficient, we will compare them. After that we will show our work by the help of hypothesis tests, computing the critical values, test values using five steps procedure. 
