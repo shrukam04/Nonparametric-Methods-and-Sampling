@@ -1,5 +1,4 @@
 #Name: Shruti B. Kamble
-#Instructor: Prof. Roy Wada
 #Course: Intermediate Analytics
 #Title:Nonparametric Methods and Sampling
 #Date: 05/16/2021
@@ -64,7 +63,6 @@ cat("Critical value = ", k)
 test_value <- SIGN.test(Game_Attendance, md = 3000, conf.level=0.95)
 cat("Test_value = ", test_value$statistic)
 
-#Make the decision and Summarize the results : Explanation is in the report.
 
 ---------------------------------------------------------------------------------------------------------
 
@@ -86,8 +84,6 @@ cat("Critical value = ", k)
 #Test value
 Test_value <- binom.test(x=15,n=40, alternative="less")
 cat("Test_value = ", Test_value$statistic)
-
-#Make the decision and Summarize the results : Explanation is in the report.
 
 ----------------------------------------------------------------------------------------------------------
   
@@ -147,7 +143,6 @@ cat("critical value = ", Critical_Value)
 x <- stats::wilcox.test(Games ~ League, alternative="two.sided", conf.level=0.95, data=Baseball)
 cat("Computed test value = ", x$statistic)
 
-#Make the decision and Summarize the results : Explanation is in the report.
 
 ------------------------------------------------------------------------------------------------------
 
@@ -197,7 +192,6 @@ cat("Computed critical value = ", ls_Critical_value)
 ls_Test_Value <- kruskal.test(Scores ~ Regions , data = Literacy_Score ) 
 cat("Computed test value = ", ls_Test_Value$statistic)
 
-#Make the decision and Summarize the results : Explanation is in the report.
 
 ------------------------------------------------------------------------------------------------------------
 #Section 13-6
@@ -226,7 +220,6 @@ n <- length(Passengers_data)
 passengers_data_Critical <- sqrt((n-2)/(1-(correlation_coef*correlation_coef)))
 cat("critical value = ", passengers_data_Critical)
 
-##Make the decision and Summarize the results : Explanation is in the report.
 
 ----------------------------------------------------------------------------------------------------------
 #Section 14-3
@@ -293,6 +286,7 @@ Avg_mean  <- mean(sample_mean)
   datatable<-as.table(Simulationdata)
   datatable
 
+-----------------------------------------------------------------------------------------------------------------
   
 #Lottery Winner
 #To win a certain lotto, a person must spell the word big. 
